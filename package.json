@@ -1,0 +1,39 @@
+{
+  "name": "favoriteLinksPro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emanuelhardwell/favoriteLinksPro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emanuelhardwell/favoriteLinksPro/issues"
+  },
+  "homepage": "https://github.com/emanuelhardwell/favoriteLinksPro#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.7.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "timeago.js": "^4.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
